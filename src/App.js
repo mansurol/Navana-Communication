@@ -15,7 +15,7 @@ const App = () => {
      <Route path="/Layout1" element={<LayoutOne />}/>
      <Route path="/Layout2" element={<LayoutTwo />}/>
      <Route path="/Layout3" element={<LayoutThree />}/>
-
+     <Route exact path="/" element={<LayoutOne />}/>
    
      </Routes>
  
